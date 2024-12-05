@@ -12,18 +12,50 @@ h3 {
 }
 
 header {
-  margin: 80px 60px;
   background: #f8a731;
 }
 
+header .hero {
+  padding: 100px 0;
+  margin-bottom: 30px;
+}
+
 header .intro {
-  padding: 70px 40px;
+  padding: 50px 40px;
 }
 
 header h1 {
   font-size: 60px;
 }
 
+header ul {
+  list-style: none;
+  padding: 0 auto;
+}
+
+header .tags li {
+  border: 1px solid #000;
+  padding: 10px 20px;
+  text-align: center;
+}
+
+header .tags {
+  display: flex;
+  justify-content: flex-start;
+  margin: 30px 0;
+}
+
+header .tags .culture {
+  background: red;
+}
+
+header .tags .education {
+  background: green;
+}
+
+header .tags .societe {
+  background: blue;
+}
 p {
   font-family: var(--text-font-family);
   font-weight: 400;
