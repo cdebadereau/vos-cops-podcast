@@ -1,10 +1,27 @@
 :root {
   --heading-font-family: "Fascinate Inline", system-ui;
   --text-font-family: "Poppins", sans-serif;
+  --primary-color: #e1bee7;
+  --secondary-color: #9c27b0;
 }
 
 * {
   color: #212121;
+}
+
+.preheader {
+  background: var(--secondary-color);
+  color: white;
+  font-weight: 200;
+  font-size: 15px;
+  text-align: center;
+  padding: 10px;
+  position: fixed;
+  width: 100%;
+}
+
+.preheader .heart-icon {
+  color: #fff;
 }
 
 h1,
@@ -16,11 +33,11 @@ h3 {
 }
 
 header {
-  background: #e1bee7;
+  background: var(--primary-color);
 }
 
 header .hero {
-  padding: 100px 0;
+  padding: 150px 0 100px;
   margin-bottom: 30px;
 }
 
@@ -57,11 +74,14 @@ header .labels {
 
 header .labels .tags {
   border-radius: 10px;
-  border: 1px solid #000;
-  border: 1px solid #000;
+  border: 1px solid var(--secondary-color);
   padding: 10px 20px;
   margin-right: 10px;
   text-align: center;
+}
+
+header .labels li {
+  color: var(--secondary-color);
 }
 
 header p {
