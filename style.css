@@ -11,7 +11,7 @@
 }
 
 .preheader {
-  background: var(--secondary-color);
+  background: #212121;
   color: white;
   font-weight: 200;
   font-size: 15px;
@@ -121,6 +121,11 @@ footer .icon:hover {
   header img {
     padding: 0 30px;
   }
+  header .hero {
+    padding: 110px 0 0;
+    text-align: center;
+  }
+
   header .hero h1 {
     text-align: center;
     font-size: 40px;
