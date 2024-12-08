@@ -3,6 +3,7 @@
   --text-font-family: "Poppins", sans-serif;
   --primary-color: #e1bee7;
   --secondary-color: #9c27b0;
+  --third-color: #7b1fa2;
 }
 
 * {
@@ -46,7 +47,7 @@ header img {
 }
 
 header .intro {
-  padding: 40px;
+  padding: 50px;
 }
 
 header h1 {
@@ -92,6 +93,28 @@ p {
   font-family: var(--text-font-family);
   font-weight: 400;
   font-style: normal;
+}
+
+footer {
+  text-align: center;
+  padding: 60px 0;
+  margin-top: 20px;
+  background: #212121;
+}
+
+footer h3 {
+  color: #fff;
+}
+
+footer .icon {
+  font-size: 30px;
+  padding: 10px;
+  color: var(--primary-color);
+  transition: all 250ms ease-in-out;
+}
+
+footer .icon:hover {
+  color: var(--secondary-color);
 }
 
 @media (max-width: 900px) {
