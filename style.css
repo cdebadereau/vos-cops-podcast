@@ -75,10 +75,19 @@ header .labels {
 
 header .labels .tags {
   border-radius: 10px;
-  border: 1px solid var(--secondary-color);
+  border: 2px solid var(--secondary-color);
   padding: 10px 20px;
   margin-right: 10px;
   text-align: center;
+}
+
+header .labels .tags:hover {
+  background: var(--secondary-color);
+  transition: all 250ms ease-in-out;
+}
+
+header .labels li:hover {
+  color: var(--primary-color);
 }
 
 header .labels li {
