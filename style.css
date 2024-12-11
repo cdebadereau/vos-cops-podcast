@@ -39,7 +39,6 @@ header {
 
 header .hero {
   padding: 150px 0 100px;
-  margin-bottom: 30px;
 }
 
 header img {
@@ -102,6 +101,22 @@ p {
   font-family: var(--text-font-family);
   font-weight: 400;
   font-style: normal;
+}
+
+.about-founders {
+  background: #b183b8;
+}
+
+.founders {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.founders img {
+  border-radius: 50%;
+  width: 70%;
+  height: auto;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 
 footer {
