@@ -37,13 +37,14 @@ h3 {
 header .navbar {
   background: var(--primary-color);
   position: fixed;
-
+  font-size: 18px;
   width: 100%;
   top: 43px;
 }
 
 header .navbar a {
   color: #000;
+  margin: 0 20px;
 }
 
 header {
