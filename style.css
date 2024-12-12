@@ -34,6 +34,13 @@ h3 {
 }
 
 /* Header section */
+header .navbar {
+  background: var(--primary-color);
+}
+
+header .navbar a {
+  color: #000;
+}
 
 header {
   background: var(--primary-color);
