@@ -36,6 +36,10 @@ h3 {
 /* Header section */
 header .navbar {
   background: var(--primary-color);
+  position: fixed;
+
+  width: 100%;
+  top: 43px;
 }
 
 header .navbar a {
