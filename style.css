@@ -136,19 +136,32 @@ p {
 /* about section */
 
 .about-founders {
-  background: #b183b8;
-}
-
-.founders {
-  display: flex;
-  justify-content: space-evenly;
+  background: #ebd2ef;
 }
 
 .founders img {
   border-radius: 50%;
-  width: 70%;
+  width: 75%;
   height: auto;
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  display: block;
+  margin: 0 auto;
+}
+
+.founders p {
+  line-height: 25px;
+}
+
+.founders a {
+  text-decoration: none;
+  color: var(--secondary-color);
+  font-weight: 700;
+}
+
+.founders a:hover {
+  text-decoration: underline;
+  color: var(--secondary-color);
+  font-weight: 700;
 }
 
 footer {
