@@ -147,6 +147,9 @@ p {
   display: block;
   margin: 0 auto;
 }
+.founders .biography {
+  margin-left: 35px;
+}
 
 .founders p {
   line-height: 25px;
@@ -207,5 +210,9 @@ footer .icon:hover {
   header .hero .labels {
     margin: 20px auto;
     font-size: 12px;
+  }
+
+  .founders {
+    text-align: center;
   }
 }
