@@ -63,6 +63,18 @@ header .intro {
   padding: 30px 50px;
 }
 
+header .intro a {
+  text-decoration: none;
+  color: var(--secondary-color);
+  font-weight: 700;
+}
+
+header .intro a:hover {
+  border-bottom: var(--secondary-color) 2px solid;
+  color: var(--secondary-color);
+  font-weight: 700;
+}
+
 header h1 {
   font-size: 60px;
 }
@@ -118,15 +130,6 @@ header .spotify-button {
   padding: 10px 25px;
 }
 
-header .spotify-button:hover {
-  background: #9b27b0bd;
-}
-
-header .spotify-button a {
-  text-decoration: none;
-  color: #fff;
-}
-
 p {
   font-family: var(--text-font-family);
   font-weight: 400;
@@ -162,7 +165,7 @@ p {
 }
 
 .founders a:hover {
-  text-decoration: underline;
+  border-bottom: var(--secondary-color) 2px solid;
   color: var(--secondary-color);
   font-weight: 700;
 }
