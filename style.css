@@ -120,9 +120,16 @@ header p {
 
 header .spotify-button {
   background: var(--secondary-color);
+  color: #fff !important;
   border: none;
   border-radius: 10px;
   padding: 10px 25px;
+}
+
+header .spotify-button:hover {
+  background: var(--primary-color);
+  border: none;
+  color: var(--secondary-color) !important;
 }
 
 p {
@@ -163,6 +170,21 @@ p {
   border-bottom: var(--secondary-color) 2px solid;
   color: var(--secondary-color);
   font-weight: 700;
+}
+
+.episodes {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+section .episode {
+  flex-grow: 1;
+  margin: 0 30px;
+  background: rgba(243, 209, 131, 0.309);
+  border-radius: 10px;
+  padding: 40px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
 
 footer {
@@ -212,5 +234,10 @@ footer .icon:hover {
 
   .founders {
     text-align: center;
+  }
+
+  .episodes {
+    flex-direction: column;
+    gap: 30px;
   }
 }
