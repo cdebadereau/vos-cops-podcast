@@ -210,12 +210,13 @@ footer .icon:hover {
 }
 
 @media (max-width: 900px) {
-  header img {
-    padding: 0 30px;
-  }
   header .hero {
     padding: 110px 0 0;
     text-align: center;
+  }
+
+  header img {
+    width: 80%;
   }
 
   header .hero h1 {
