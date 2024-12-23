@@ -152,6 +152,7 @@ p {
   display: block;
   margin: 0 auto;
 }
+
 .founders .biography {
   margin-left: 35px;
 }
@@ -210,6 +211,14 @@ footer .icon:hover {
 }
 
 @media (max-width: 900px) {
+  .preheader {
+    font-size: 13px;
+  }
+
+  header .navbar {
+    top: 39px;
+  }
+
   header .hero {
     padding: 110px 0 0;
     text-align: center;
@@ -235,6 +244,10 @@ footer .icon:hover {
 
   .founders {
     text-align: center;
+  }
+
+  .founders .biography {
+    margin: 0 20px;
   }
 
   .episodes {
