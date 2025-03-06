@@ -211,6 +211,13 @@ footer .icon:hover {
   color: var(--secondary-color);
 }
 
+footer small {
+  color: #fff;
+  opacity: 0.6;
+  display: block;
+  padding-top: 50px;
+}
+
 @media (max-width: 900px) {
   .preheader {
     font-size: 13px;
